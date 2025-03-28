@@ -29,3 +29,6 @@ Then you have to make a vector of shared_ptrs to the Event class (*NOT YOUR CUST
 
 From there, you can check events by IDs, or you can dump all the events at once and check the IDs yourself. Do with that information as you will. 
 
+## -- TO COMPILE -- 
+
+g++ ptrace_ASM_dump.cpp -L. -l eventhandler
